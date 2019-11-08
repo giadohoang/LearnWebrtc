@@ -3,6 +3,18 @@
 //onthis codelab, you will be streaming only video (video: true).
 const mediaStreamConstraints = {
   video: true
+  // audio: true
+};
+
+const hdConstraints = {
+  video: {
+    width: {
+      min: 1280
+    },
+    height: {
+      min: 720
+    }
+  }
 };
 
 //video element where stream will be placed.
